@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap");
+
 html {
   height: 100vh;
   scroll-behavior: smooth;
@@ -791,13 +792,13 @@ i {
   padding-right: 20px;
   padding-top: 20px;
   padding-bottom: 20px;
-  background-color: rgba(67, 67, 67, 0.7);
+  background-color: rgba(29, 29, 29, 0.604);
   border-radius: 30px;
 }
 
 .abouttop {
   text-align: center;
-  color: #900a0a;
+  color: #d6d6d6ee;
 }
 
 .info {
@@ -807,12 +808,12 @@ i {
   text-align: left;
 }
 #contentt2 span {
-  color: #c4c4c4;
+  color: #e6e6e6;
 }
 
 #contentt2 {
   margin-left: 15px;
-  background-color: rgba(131, 128, 128, 0.3);
+  background-color: rgba(77, 77, 77, 0.238);
   border-radius: 20px;
   padding: 15px;
 }
@@ -832,7 +833,7 @@ i {
 }
 .timeline ul {
   list-style-type: none;
-  border-left: 2px solid #bc2a0d;
+  border-left: 2px solid #b104048b;
   padding: 10px 5px;
 }
 .timeline ul li {
@@ -843,14 +844,14 @@ i {
 }
 .timeline ul li span {
   display: inline-block;
-  background-color: #8b0b0b69;
+  background-color: #62626256;
   border-radius: 25px;
   padding: 2px 5px;
   font-size: 15px;
   text-align: center;
 }
 .timeline ul li .content h3 {
-  color: #be4128;
+  color: #c95c5cd0;
   font-size: 17px;
   padding-top: 5px;
 }
@@ -863,18 +864,19 @@ i {
   content: "";
   width: 10px;
   height: 10px;
-  background-color: #e49090;
+  background-color: #b4a8a8fc;
   border-radius: 50%;
   left: -11px;
   top: 28px;
   transition: 0.5s;
 }
 .timeline ul li:hover {
-  background-color: #6f19191e;
+  border-radius: 20px;
+  background-color: #b420201f;
 }
 .timeline ul li:hover:before {
-  background-color: rgb(210, 9, 2);
-  box-shadow: 0px 0px 10px 2px rgb(222, 77, 77);
+  background-color: rgb(255, 0, 0);
+  box-shadow: 0px 0px 10px 2px rgb(248, 114, 105);
 }
 
 .timelines {
@@ -885,6 +887,7 @@ i {
 }
 
 .projects {
+  margin-top: 10vh;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -1028,3 +1031,202 @@ i {
   cursor: pointer;
   text-decoration: none;
 }
+
+.contact {
+  margin: 0;
+  padding: 0;
+  margin-top: 60vh;
+  padding-bottom: 100px;
+}
+
+#contact {
+  width: 100%;
+  height: 100%;
+}
+
+.section-header {
+  text-align: center;
+  margin: 0 auto;
+  padding: 40px 0;
+  font: 300 60px "Oswald", sans-serif;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+}
+
+.contact-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding: 20px;
+  position: relative;
+  max-width: 840px;
+}
+
+/* Left contact page */
+.form-horizontal {
+  /*float: left;*/
+  max-width: 400px;
+  font-family: "Lato";
+  font-weight: 400;
+}
+.col-sm-12 {
+  margin: 15px;
+}
+.form-control {
+  border-radius: 5px;
+  font-weight: 500;
+  display: block;
+  margin: 0 auto;
+  justify-content: center;
+  min-width: 330px;
+  max-width: 550px;
+  background-color: #000000;
+  color: #ffffff;
+  letter-spacing: 5px;
+}
+
+.send-button {
+  border-radius: 10px;
+  height: 30px;
+  min-width: 340px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 10px;
+  overflow: hidden;
+  transition: all 0.2s ease-in-out;
+}
+
+.alt-send-button {
+  height: 30px;
+
+  max-width: 340px;
+  transition: all 0.2s ease-in-out;
+}
+
+.send-text {
+  display: block;
+
+  margin-top: 20px;
+  font: 700 12px "Lato", sans-serif;
+  letter-spacing: 2px;
+}
+
+.alt-send-button:hover {
+  transform: translate3d(0px, -29px, 0px);
+}
+
+/* Begin Right Contact Page */
+.direct-contact-container {
+  max-width: 400px;
+}
+
+/* Location, Phone, Email Section */
+.contact-list {
+  list-style-type: none;
+  margin-left: -30px;
+  padding-right: 20px;
+}
+
+.list-item {
+  line-height: 4;
+  color: #aaa;
+}
+
+.contact-text {
+  font: 300 18px "Lato", sans-serif;
+  letter-spacing: 1.9px;
+  color: #bbb;
+}
+
+.place {
+  margin-left: 62px;
+}
+
+.phone {
+  margin-left: 56px;
+}
+
+.gmail {
+  margin-left: 53px;
+}
+
+.contact-text a {
+  color: #bbb;
+  text-decoration: none;
+  transition-duration: 0.2s;
+}
+
+.contact-text a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Social Media Icons */
+.social-media-list {
+  position: relative;
+  font-size: 22px;
+  text-align: center;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.social-media-list li a {
+  color: #fff;
+}
+
+.social-media-list li {
+  position: relative;
+  display: inline-block;
+  height: 60px;
+  width: 60px;
+  margin: 10px 3px;
+  line-height: 60px;
+  border-radius: 50%;
+  color: #fff;
+  background-color: rgb(27, 27, 27);
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.social-media-list li:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  border-radius: 50%;
+  opacity: 0;
+  box-shadow: 0 0 0 1px #fff;
+  transition: all 0.2s ease-in-out;
+}
+
+.social-media-list li:hover {
+  background-color: #fff;
+}
+
+.social-media-list li:hover:after {
+  opacity: 1;
+  transform: scale(1.12);
+  transition-timing-function: cubic-bezier(0.37, 0.74, 0.15, 1.65);
+}
+
+.social-media-list li:hover a {
+  color: #000;
+}
+
+.copyright {
+  font: 200 14px "Oswald", sans-serif;
+  color: #555;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+hr {
+  border-color: rgba(255, 255, 255, 0.6);
+}
+
