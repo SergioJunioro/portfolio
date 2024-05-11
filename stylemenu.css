@@ -1020,12 +1020,12 @@ i {
   top: -1rem;
   width: 3rem;
   height: 3rem;
-  font-size: 0.875rem;
-  font-weight: 300;
+  font-size: 0.975rem;
+  font-weight: 400;
   border-radius: 100%;
-  background-color: #0a0a0a;
+  background-color: #d3d3d3;
   z-index: 4;
-  color: #c30303;
+  color: #ff0000;
   line-height: 3rem;
   text-align: center;
   cursor: pointer;
