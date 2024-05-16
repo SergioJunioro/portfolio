@@ -798,6 +798,17 @@ i {
 
 .abouttop {
   text-align: center;
+  margin: 0 auto;
+  padding: 40px 0;
+  font: 300 3vw "Oswald", sans-serif;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+
+}
+
+.abouttopp {
+  text-align: center;
   color: #d6d6d6ee;
 }
 
@@ -884,6 +895,18 @@ i {
   flex-direction: row-reverse;
   margin-top: 20px;
   padding: 0;
+}
+
+.projectss{
+
+  text-align: center;
+  margin: 0 auto;
+  padding: 40px 0;
+  font: 300 2vw "Oswald", sans-serif;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+
 }
 
 .projects {
@@ -1048,7 +1071,7 @@ i {
   text-align: center;
   margin: 0 auto;
   padding: 40px 0;
-  font: 300 60px "Oswald", sans-serif;
+  font: 300 4vw "Oswald", sans-serif;
   color: #fff;
   text-transform: uppercase;
   letter-spacing: 10px;
@@ -1229,4 +1252,3 @@ i {
 hr {
   border-color: rgba(255, 255, 255, 0.6);
 }
-
