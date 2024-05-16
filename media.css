@@ -1,3 +1,16 @@
+@media screen and (max-width: 366px) and (orientation: portrait) {
+  .timelines{
+flex-direction: column !important;
+
+  }
+ .timeline{
+  max-width: 80vw !important;
+
+ } 
+
+
+}
+
 @media screen and (orientation: portrait) {
   body {
     background-image: url(background8.jpg);
@@ -7,6 +20,11 @@
     background-size: cover;
   }
   
+.abouttop{
+  font: 300 8vw "Oswald", sans-serif;
+
+}
+
   .header__logo {
     display: none;
   }
@@ -57,7 +75,7 @@
     display: block;
     margin: 0 auto;
     height: 30vh;
-    width: 70vw;
+    width: 55vw;
   }
 
   #contentt2 {
@@ -97,6 +115,14 @@
     padding-top: 0px;
   }
 
+  .projectss{
+
+    
+    font: 300 4vw "Oswald", sans-serif;
+    
+  
+  }
+
   .popup__photo {
     height: 40%;
   }
@@ -118,7 +144,15 @@
     max-width: 70vw;
    
   }
+  .section-header {
+    
+    font: 300 8vw "Oswald", sans-serif;
+    
+  }
+  
 }
+
+
 
 @media screen and (max-width: 820px) and (orientation: landscape) {
   .navbar__link {
@@ -241,4 +275,6 @@
 
 
 }
+
+
 
